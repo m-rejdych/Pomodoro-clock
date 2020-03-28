@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset = 'UTF-8'>
+        <title>Pomodoro Clock</title>
+        <link href = 'reset.css' rel = 'stylesheet'>
+        <link href = 'style.css' rel = 'stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Spicy+Rice|Viga&display=swap" rel="stylesheet">
+        <script src= "https://kit.fontawesome.com/9e6d92b318.js" crossorigin = "anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <h1><strong>Pomodoro Clock</strong></h1>
+            <section id = 'settingsSection'>
+                <div id = 'sessionSettings' class = 'settingsClass'>
+                    <h3 class = 'sessionBreakTitle'>Session</h3>
+                    <div id = 'sessionSelector' class = 'selectorClass'>
+                        <button id = 'sessionAdd' class = 'addReduceButton'><i class = 'fas fa-arrow-circle-up fa-2x'></i></button>
+                        <p id = 'sessionNumberDisplay' class = 'sessionBreakNumberClass'>25</p>
+                        <button id = 'sessionReduce' class = 'addReduceButton'><i class = 'fas fa-arrow-circle-down fa-2x'></i></button>
+                    </div>
+                </div>
+                <div id = 'breakSettings' class = 'settingsClass'>
+                    <h3 class = 'sessionBreakTitle'>Break</h3>
+                    <div id = 'breakSelector' class = 'selectorClass'>
+                        <button id = 'breakAdd' class = 'addReduceButton'><i class = 'fas fa-arrow-circle-up fa-2x'></i></button>
+                        <p id = 'breakNumberDisplay' class = 'sessionBreakNumberClass'>5</p>
+                        <button id = 'breakReduce' class = 'addReduceButton'><i class = 'fas fa-arrow-circle-down fa-2x'></i></button>
+                    </div>
+                </div>
+            </section>
+            <sectin id = 'runningSection'>
+                <div id = 'playRestart' class = 'navigation'>
+                    <button id = 'playButton' class = 'navigationButtons'><i class = 'fas fa-play fa-3x'></i></button>
+                    <button id = 'restartButton' class = 'navigationButtons'><i class = 'fas fa-undo fa-3x'></i></button>
+                </div>
+                <div id = 'clockDisplay'>
+                    <h3 id = 'sessionBreakInfo'>Session</h3>
+                    <div id = time>
+                        <p id = 'minutesLeft'>25</p>
+                        <p>:</p>
+                        <p id = 'secondsLeft'>00</p>
+                    </div>
+                </div>
+                <div id = 'pauseStop' class = 'navigation'>
+                    <button id = 'pauseButton' class = 'navigationButtons'><i class = 'fas fa-pause fa-3x'></i></button>
+                    <button id = 'stopButton' class = 'navigationButtons'><i class = 'fas fa-stop fa-3x'></i></button>
+                </div>
+            </sectin>
+        </main>
+
+        <script src = 'script.js'></script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Viga', Arial, Helvetica;
+    text-align: center;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(139, 98, 98);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Spicy Rice', Arial, Helvetica;
+    font-size: 8vh;
+    color: rgb(151, 10, 10);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 30px;
+}
+#settingsSection {
+    width: 40%;
+    height: 15%;
+    background-color: rgba(240, 47, 47, 0.63);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.settingsClass {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sessionBreakTitle {
+    font-size: 30px;
+}
+.selectorClass {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.addReduceButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.sessionBreakNumberClass {
+    font-size: 20px;
+}
+#runningSection {
+    width: 40%;
+    height: 40%;
+    background-color: rgba(240, 47, 47, 0.63);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#playRestart {
+    justify-self: flex-start;
+}
+#pauseStop {
+    justify-self: flex-end;
+}
+#clockDisplay {
+    justify-self: center;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+#time {
+    display: flex;
+    flex-direction: row;
+}
+.navigation {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigationButtons {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
